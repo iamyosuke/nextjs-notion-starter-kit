@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Tokyoboy Yosuke Blog',
+  name: 'The Tokyoboy Story',
   domain: 'blog.tokyoboy.xyz',
   author: 'Tokyoboy Yosuke',
 
   // open graph metadata (optional)
-  description: 'Tokyoboy Yosuke Blog',
+  description: 'The Tokyoboy Story',
 
   // social usernames (optional)
   twitter: '',
