@@ -34,6 +34,7 @@
     "@keyvhq/core": "^1.6.9",
     "@keyvhq/redis": "^1.6.10",
     "@react-icons/all-files": "^4.1.0",
+    "analytics": "^0.8.16",
     "classnames": "^2.5.1",
     "expiry-map": "^2.0.0",
     "fathom-client": "^3.4.1",
@@ -53,7 +54,8 @@
     "react-notion-x": "^7.2.3",
     "react-tweet": "^3.2.1",
     "react-use": "^17.4.2",
-    "rss": "^1.2.2"
+    "rss": "^1.2.2",
+    "vercel": "^41.7.0"
   },
   "devDependencies": {
     "@fisch0920/eslint-config": "^1.4.0",
