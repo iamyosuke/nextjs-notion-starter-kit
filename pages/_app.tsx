@@ -18,7 +18,7 @@ import * as Fathom from 'fathom-client'
 import { useRouter } from 'next/router'
 import posthog from 'posthog-js'
 import * as React from 'react'
-
+import { Analytics } from '@vercel/analytics/react'
 import { bootstrap } from '@/lib/bootstrap-client'
 import {
   fathomConfig,
@@ -61,5 +61,10 @@ export default function App({ Component, pageProps }: AppProps) {
     }
   }, [router.events])
 
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  )
 }
